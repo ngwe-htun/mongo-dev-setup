@@ -24,7 +24,7 @@ services:
   # Mongo express service -
   #------------------------
   mongo-express:
-    container_name: mongo-express:${MONGO_EXPRESS_VERSION}
+    container_name: mongo-express
     image:  mongo-express
     hostname: mongo-lab
     restart: always
